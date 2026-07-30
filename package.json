@@ -1,0 +1,48 @@
+{
+  "name": "apple-music",
+  "description": "Listen to Apple Music in a native Windows application.",
+  "author": {
+    "name": "Taylor Ivanoff"
+  },
+  "version": "1.0.0",
+  "repository": "https://github.com/taylorivanoff/apple-music-windows",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "release": "electron-builder --win --x64 --publish=never"
+  },
+  "build": {
+    "appId": "io.github.taylorivanoff.apple-music",
+    "productName": "Apple Music",
+    "win": {
+      "icon": "icon.png",
+      "target": "nsis",
+      "artifactName": "${name}-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "include": "installer.nsh",
+      "deleteAppDataOnUninstall": true
+    },
+    "publish": {
+      "provider": "generic",
+      "url": "https://github.com/taylorivanoff/apple-music-windows/releases/latest/download"
+    },
+    "protocols": {
+      "name": "Apple Music",
+      "schemes": [
+        "apple-music"
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-store": "^8.2.0",
+    "electron-updater": "^6.1.8",
+    "icloud-windows-base": "github:taylorivanoff/icloud-windows-base#v1.0.17"
+  },
+  "devDependencies": {
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3"
+  }
+}
