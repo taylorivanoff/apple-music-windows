@@ -1,13 +1,11 @@
-# Apple Music for Windows — Unofficial Desktop App
+# Apple Music for Windows
 
 [![Release](https://img.shields.io/github/v/release/taylorivanoff/apple-music-windows)](https://github.com/taylorivanoff/apple-music-windows/releases)
 [![Downloads](https://img.shields.io/github/downloads/taylorivanoff/apple-music-windows/total)](https://github.com/taylorivanoff/apple-music-windows/releases)
 [![License](https://img.shields.io/github/license/taylorivanoff/apple-music-windows)](LICENSE)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/taylorivanoff)
 
-Unofficial **Apple Music for Windows** desktop app. Access [Apple Music](https://music.apple.com/) in a dedicated Electron client with system tray, auto-updates, and shared Apple ID authentication.
-
-Stream and manage your Apple Music library on Windows in a lightweight Electron desktop app with system tray support.
+Apple Music desktop app for Windows. Access [Apple Music](https://music.apple.com/).
 
 ## Features
 
@@ -41,7 +39,7 @@ bun run release
 
 ## Keywords
 
-Apple Music for Windows, Apple Music desktop app, Apple Music Windows client, unofficial Apple Music PC app, music.apple.com desktop
+Apple Music for Windows, Apple Music desktop app, Apple Music Windows client, music.apple.com desktop
 
 ## Contributing
 
