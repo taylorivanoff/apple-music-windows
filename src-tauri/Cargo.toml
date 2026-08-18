@@ -1,6 +1,6 @@
 [package]
 name = "apple-music"
-version = "2.0.3"
+version = "2.0.4"
 description = "Apple Music for Windows (Tauri)"
 authors = ["Taylor Ivanoff"]
 edition = "2021"
